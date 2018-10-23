@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">my application</string>
+    <string name="heading">Welcome</string>
+    <string name="hintForName">Name</string>
+    <string name="bt1">Login</string>
+    <string name="bt2">Download</string>
+    <string name="bt3">Recycler view</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="navigation_drawer_open">open Navigation drawer</string>
+    <string name="navigation_drawer_close">close Navigation drawer</string>
+
+</resources>

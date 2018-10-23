@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:text="Your location!!"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lattitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Lattitude:"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/location_lattitude_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
+        android:text="lat"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Longitude:"
+        android:layout_below="@+id/lattitude"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/location_longitude_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:text="long"
+        android:layout_below="@+id/location_lattitude_result"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
